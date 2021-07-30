@@ -6,22 +6,20 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
+app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { useNewUrlParser: true });
-
-app.use(require("./models/Workout.js"))
-
-
 // view
-// router.get ('/exercise')
-// router.get('/stats)
+// app.get ('/exercise')
+// app.get('/stats)
+app.use(require("./routes/api.js"));
+app.use(require("./routes/view.js"));
 
-// api
-// router.post('workouts') workout.create()
+
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`)
