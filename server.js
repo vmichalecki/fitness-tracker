@@ -13,9 +13,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { useNewUrlParser: true });
-// view
-// app.get ('/exercise')
-// app.get('/stats)
+
 app.use(require("./routes/api.js"));
 app.use(require("./routes/view.js"));
 
