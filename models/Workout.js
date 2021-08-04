@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-// day: date
 const WorkoutSchema = new Schema({
     day: {
         type: Date,
@@ -16,6 +15,7 @@ const WorkoutSchema = new Schema({
         name: {
             type: String,
             trim: true,
+            required: true,
         },
         weight: {
             type: Number,
@@ -27,8 +27,13 @@ const WorkoutSchema = new Schema({
             type: Number,
         },
         duration: {
-            type: Number
+            type: Number,
+            // validate: "/^\b|([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/"
+
         },
+        distance: {
+            type: Number,
+        }
     }],
 });
 
