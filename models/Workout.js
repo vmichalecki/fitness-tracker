@@ -28,8 +28,6 @@ const WorkoutSchema = new Schema({
         },
         duration: {
             type: Number,
-            // validate: "/^\b|([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/"
-
         },
         distance: {
             type: Number,
