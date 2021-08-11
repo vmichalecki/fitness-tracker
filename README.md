@@ -16,7 +16,12 @@ This fitness tracker will allow you to keep track of your cardio and weight lift
 
 ## Usage
 
-Follow these steps to use the Fitness Tracker: 1. Follow this link to the deployed application: [Fitness Tracker](https://valerie-fitness-tracker.herokuapp.com/?id=611337e4a82bac0e563dd286). 2. From the homepage select "New Workout" or "Continue Workout" and follow the prompts. 3. When you are done click `Complete` and your information will be tallied and displayed on the dashboard. 4. To view your workout totals click on "Dashboard" in the navigation bar.
+Follow these steps to use the Fitness Tracker:
+
+1. Follow this link to the deployed application: [Fitness Tracker](https://valerie-fitness-tracker.herokuapp.com/?id=611337e4a82bac0e563dd286).
+2. From the homepage select "New Workout" or "Continue Workout" and follow the prompts.
+3. When you are done click `Complete` and your information will be tallied and displayed on the dashboard.
+4. To view your workout totals click on "Dashboard" in the navigation bar.
 
 ## License
 
