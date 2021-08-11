@@ -33,3 +33,5 @@ Miguel Alicea: [https://github.com/malicea0783](https://github.com/malicea0783)
 ## Screenshots
 
 ![Fitness Tracker](./public/images/fitness-tracker-screenshot.png)
+![Fitness Tracker](./public/images/fitness-tracker-screenshot-2.png)
+![Fitness Tracker](./public/images/fitness-tracker-screenshot-3.png)
